@@ -15,6 +15,7 @@ adb connect 192.168.178.77
 Q:
 cd "Q:\dev\projects\welovecoding\wlc-fire-tv-app"
 ant clean debug
-adb install -r "out/production/wlc-fire-tv-app/wlc-fire-tv-app.apk"
+# adb install -r "out/production/wlc-fire-tv-app/wlc-fire-tv-app.apk"
+adb install -r "bin/wlc_fire_tv_app-debug.apk"
 adb shell am start -n com.welovecoding.app.firetv/.MyMainActivity
 ```
